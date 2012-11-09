@@ -1,5 +1,9 @@
 javascript:
 (function(){
+  /*
+	 * To convert this code into a true bookmarklet, use http://subsimple.com/bookmarklets/jsbuilder.htm
+	 */
+
   // VARIABLES
 
   //this is where all your remote files are stored, please change this to your own server url
