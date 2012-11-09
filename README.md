@@ -14,15 +14,11 @@ More details are on http://histogram.cgb.im/
 
 ### Histogram
 
-`http://farm4.static.flickr.com/3122/2806124294_08cc5efc74.jpg`
-
-![Image](http://farm4.static.flickr.com/3122/2806124294_08cc5efc74.jpg)
-
-## Usage
-
 `http://histogram.cgb.im/?type=image&rgb=true&image=http://farm4.static.flickr.com/3122/2806124294_08cc5efc74.jpg`
 
-![Histogram](http://histogram.cgb.im/?type=image&rgb=true&image=http://farm4.static.flickr.com/3122/2806124294_08cc5efc74.jpg)
+![Histogram](https://chart.googleapis.com/chart?cht=ls&chd=s:AAAAAAAABBCCDDEFFGGHHHHGGFEEEDDEEEFFHIJLOQUZaYXWXXYURRRQMLJIHFFFEEDDCCCCCBCBBBBBBBBBB,AAAAAAAAAAAABBBCCDDEFGHIJJKKLLLLMMLLLKJIHGGFEEDDDDDCDEFHJLOQYmoeZYZZVSTTQMKIGEFECCCBC,AAAAAAAAABBBCCDDEEEFFFFFFFFFGGHHIIJJKKLLLLLKKJIHFEDCBBBBAAAABBEGMScr9qmnifeVNIFFFDCBB&chco=c21f1fAA,99c274AA,519bc2AA&chls=2,5,0%7C2,5,0%7C2,5,0&chs=353x175)
+
+## Usage
 
 ### Bookmarklet
 
