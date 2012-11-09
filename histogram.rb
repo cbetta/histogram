@@ -7,12 +7,9 @@ require 'yaml'
 GOOGLE_CHARTS_URL = "http://chart.apis.google.com/chart?cht=ls&chd=s:%s&chco=%s&chls=%s&chs=%sx%s".freeze
 DATA_ENCODING = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".freeze
 
-
 get '/' do
-  redirect "http://blog.cristianobetta.com/2008/08/31/photo-histograms-everywhere/"
-end
+  return redirect "http://blog.cristianobetta.com/2008/08/31/photo-histograms-everywhere/" unless params[:image]
 
-get '/*' do
   params[:height] ||= 175;
   params[:height] = params[:height].to_i
   params[:height] = 385 if params[:height] > 385
